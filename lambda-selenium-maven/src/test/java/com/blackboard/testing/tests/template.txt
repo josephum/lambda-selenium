@@ -1,0 +1,17 @@
+package com.blackboard.testing.tests;
+
+import static com.codeborne.selenide.Selenide.open;
+import static com.codeborne.selenide.Selenide.title;
+import static org.hamcrest.CoreMatchers.containsString;
+import static org.junit.Assert.assertThat;
+
+import com.blackboard.testing.common.LambdaBaseTest;
+import com.codeborne.selenide.WebDriverRunner;
+
+import org.junit.Test;
+import org.junit.experimental.categories.Category;
+import org.openqa.selenium.WebDriver;
+
+@Category(Test.class)
+public class LambdaTest2 extends LambdaBaseTest {
+
