@@ -20,9 +20,9 @@ public class LambdaTest extends LambdaBaseTest {
     }
 
     @Test
-    public void blackboardTest() {
-        open("http://www.blackboard.com/");
-        screenshot("blackboard-home-page");
-        assertThat(title(), containsString("Blackboard"));
+    public void boldtechnikaTest() {
+        open("http://www.boldtechnika.com/");
+        screenshot("boldtechnika-home-page");
+        assertThat(title(), containsString("https://boldtechnika.com/"));
     }
 }
