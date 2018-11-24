@@ -14,6 +14,6 @@ provider:
 
 functions:
   'lambda-selenium-demo':
-    handler: 'com.boldtechnica.testing.lambda.LambdaTestHandler::handleRequest'
+    handler: 'com.boldtechnika.testing.lambda.LambdaTestHandler::handleRequest'
     name: lambda-selenium-function
     description: Lambda Selenium Demo Tests

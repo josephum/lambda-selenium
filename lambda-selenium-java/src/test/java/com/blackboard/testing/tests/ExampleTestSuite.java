@@ -24,7 +24,7 @@ public class ExampleTestSuite extends LambdaTestSuite {
     public static Collection<TestRequest> testRequests() {
         LOGGER.log("Running " + filter.describe());
 
-        return getTestRequests("com.blackboard.testing.tests", filter);
+        return getTestRequests("com.boldtechnika.testing.tests", filter);
     }
 
     @Test

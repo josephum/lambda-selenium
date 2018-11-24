@@ -11,7 +11,7 @@ buildscript {
 
 apply plugin: 'com.github.johnrengelman.shadow'
 
-group = 'com.boldtechnica.testing'
+group = 'com.boldtechnika.testing'
 
 repositories {
     mavenCentral()
