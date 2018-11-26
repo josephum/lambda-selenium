@@ -6,6 +6,7 @@ import static org.junit.Assert.assertThat;
 
 import com.boldtechnika.testing.common.LambdaBaseTest;
 import com.codeborne.selenide.WebDriverRunner;
+
 import org.junit.Test;
 import org.junit.experimental.categories.Category;
 import org.openqa.selenium.WebDriver;
@@ -17,11 +18,6 @@ public class LambdaTest2 extends LambdaBaseTest {
     public void GoogleCanada() {
         open("http://www.google.ca");
         screenshot("GoogleCanada"+"-home-page");
-    }
-    @Test
-    public void Naver() {
-        open("http://www.Naver.com");
-        screenshot("Naver"+"-home-page");
     }
     @Test
     public void GoogleItaly() {
@@ -107,11 +103,6 @@ public class LambdaTest2 extends LambdaBaseTest {
     public void YouTube() {
         open("http://www.youtube.com");
         screenshot("YouTube"+"-home-page");
-    }
-    @Test
-    public void Sohu() {
-        open("http://www.sohu.com");
-        screenshot("Sohu"+"-home-page");
     }
     @Test
     public void Taobao() {
