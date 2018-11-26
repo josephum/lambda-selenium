@@ -20,11 +20,6 @@ public class LambdaTest2 extends LambdaBaseTest {
         screenshot("GoogleCanada"+"-home-page");
     }
     @Test
-    public void Naver() {
-        open("http://www.Naver.com");
-        screenshot("Naver"+"-home-page");
-    }
-    @Test
     public void GoogleItaly() {
         open("http://www.google.it");
         screenshot("GoogleItaly"+"-home-page");
@@ -108,11 +103,6 @@ public class LambdaTest2 extends LambdaBaseTest {
     public void YouTube() {
         open("http://www.youtube.com");
         screenshot("YouTube"+"-home-page");
-    }
-    @Test
-    public void Sohu() {
-        open("http://www.sohu.com");
-        screenshot("Sohu"+"-home-page");
     }
     @Test
     public void Taobao() {
